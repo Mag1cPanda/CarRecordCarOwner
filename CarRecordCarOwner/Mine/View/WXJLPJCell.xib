@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="131" id="KGk-i7-Jjw" customClass="WXJLPJCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="99.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="更换配件名称" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TBQ-zL-qRj">
+                        <rect key="frame" x="9" y="13" width="86" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="86" id="OEl-VP-U7h"/>
+                            <constraint firstAttribute="height" constant="21" id="sT4-QB-0jP"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入配件名称" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RiL-vo-IE0">
+                        <rect key="frame" x="109" y="8" width="201" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="ul1-kM-4UP"/>
+                        </constraints>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="更换配件数量" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7EI-e1-EZM">
+                        <rect key="frame" x="10" y="61" width="86" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="JVJ-tC-gLE"/>
+                            <constraint firstAttribute="width" constant="86" id="hHx-VY-snG"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入配件数量" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Iqf-iB-wq6">
+                        <rect key="frame" x="110" y="56" width="200" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="yhK-t7-kXg"/>
+                        </constraints>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O8w-Ea-OYH">
+                        <rect key="frame" x="10" y="50" width="300" height="0.5"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="c5d-Bk-hV2"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xPZ-5c-8yb">
+                        <rect key="frame" x="10" y="99" width="300" height="0.5"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="0.5" id="sDa-eE-2VS"/>
+                            <constraint firstAttribute="height" constant="0.5" id="uKd-dd-4Td"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="O8w-Ea-OYH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="2" id="1Hv-xf-ZAO"/>
+                    <constraint firstAttribute="trailing" secondItem="xPZ-5c-8yb" secondAttribute="trailing" constant="10" id="238-Ev-alE"/>
+                    <constraint firstItem="TBQ-zL-qRj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="1" id="3Oe-Li-i9G"/>
+                    <constraint firstItem="7EI-e1-EZM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="2" id="G8s-gx-DE8"/>
+                    <constraint firstItem="TBQ-zL-qRj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="JVv-qr-6ZD"/>
+                    <constraint firstItem="Iqf-iB-wq6" firstAttribute="leading" secondItem="7EI-e1-EZM" secondAttribute="trailing" constant="14" id="Rbp-Y5-9Vy"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="RiL-vo-IE0" secondAttribute="trailing" constant="2" id="SqW-1R-BVc"/>
+                    <constraint firstAttribute="bottom" secondItem="xPZ-5c-8yb" secondAttribute="bottom" constant="0.5" id="ZGU-u1-L7V"/>
+                    <constraint firstItem="xPZ-5c-8yb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="hnp-UQ-axr"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Iqf-iB-wq6" secondAttribute="trailing" constant="2" id="iFJ-jj-6A4"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="O8w-Ea-OYH" secondAttribute="trailing" constant="2" id="k2y-Zf-K9H"/>
+                    <constraint firstItem="O8w-Ea-OYH" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="l8r-Bv-nPX"/>
+                    <constraint firstItem="RiL-vo-IE0" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="lAV-he-r4E"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Iqf-iB-wq6" secondAttribute="bottom" constant="5.5" id="lmZ-TK-sGr"/>
+                    <constraint firstItem="RiL-vo-IE0" firstAttribute="leading" secondItem="TBQ-zL-qRj" secondAttribute="trailing" constant="14" id="omS-jC-EVs"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="7EI-e1-EZM" secondAttribute="bottom" constant="9.5" id="rvL-yR-4vv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="pjname" destination="RiL-vo-IE0" id="dHp-z5-ji7"/>
+                <outlet property="pjnumber" destination="Iqf-iB-wq6" id="lmp-sY-rFY"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="95"/>
+        </tableViewCell>
+    </objects>
+</document>

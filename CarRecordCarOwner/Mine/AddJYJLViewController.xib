@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddJYJLViewController">
+            <connections>
+                <outlet property="costBack" destination="KGY-co-toK" id="6hy-Go-u18"/>
+                <outlet property="dateBack" destination="k4e-n3-H6J" id="Plb-jT-Zp8"/>
+                <outlet property="remarksBack" destination="QvD-oS-NVT" id="B9B-Nm-s7e"/>
+                <outlet property="saveBtn" destination="6uS-9U-8OX" id="wla-sr-ErM"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KGY-co-toK">
+                    <rect key="frame" x="15" y="80" width="384" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="imI-iJ-HlN"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k4e-n3-H6J">
+                    <rect key="frame" x="15" y="140" width="384" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="OZJ-Qz-yaV"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QvD-oS-NVT">
+                    <rect key="frame" x="15" y="200" width="384" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="BsY-7K-Fxe"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6uS-9U-8OX">
+                    <rect key="frame" x="15" y="280" width="384" height="50"/>
+                    <color key="backgroundColor" red="0.086274509799999996" green="0.47843137250000001" blue="0.73333333329999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="gDi-ag-wnH"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="保存"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="saveBtnClicked:" destination="-1" eventType="touchUpInside" id="jia-hp-wnF"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="6uS-9U-8OX" secondAttribute="trailing" constant="15" id="0Hu-Pa-a7t"/>
+                <constraint firstItem="KGY-co-toK" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="80" id="7fY-23-SJ8"/>
+                <constraint firstItem="6uS-9U-8OX" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="Ar5-Zv-NBN"/>
+                <constraint firstAttribute="trailing" secondItem="QvD-oS-NVT" secondAttribute="trailing" constant="15" id="GVH-el-zbD"/>
+                <constraint firstItem="QvD-oS-NVT" firstAttribute="top" secondItem="k4e-n3-H6J" secondAttribute="bottom" constant="10" id="GbM-ZV-krh"/>
+                <constraint firstItem="KGY-co-toK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="N2E-tZ-gQi"/>
+                <constraint firstItem="k4e-n3-H6J" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="OqD-Eb-Nmf"/>
+                <constraint firstAttribute="trailing" secondItem="k4e-n3-H6J" secondAttribute="trailing" constant="15" id="T1o-S8-SCC"/>
+                <constraint firstItem="6uS-9U-8OX" firstAttribute="top" secondItem="QvD-oS-NVT" secondAttribute="bottom" constant="30" id="WQY-hR-vA1"/>
+                <constraint firstItem="k4e-n3-H6J" firstAttribute="top" secondItem="KGY-co-toK" secondAttribute="bottom" constant="10" id="eyK-sA-TL4"/>
+                <constraint firstItem="QvD-oS-NVT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="fsb-4i-PTl"/>
+                <constraint firstAttribute="trailing" secondItem="KGY-co-toK" secondAttribute="trailing" constant="15" id="mTe-xN-uFQ"/>
+            </constraints>
+            <point key="canvasLocation" x="25" y="52"/>
+        </view>
+    </objects>
+</document>
