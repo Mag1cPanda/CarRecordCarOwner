@@ -30,6 +30,11 @@
     
     [IQKeyboardManager sharedManager].enable = YES;
     
+    LRNavigationController *nav = [[LRNavigationController alloc] init];
+    LoginViewController *loginVC = [[LoginViewController alloc] init];
+    [nav pushViewController:loginVC animated:YES];
+    self.window.rootViewController = nav;
+    
     return YES;
 }
 

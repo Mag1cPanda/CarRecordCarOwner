@@ -11,6 +11,7 @@
 #import "SRPopMenu.h"
 #import "HomeSectionTwo.h"
 #import "CarManageViewController.h"
+#import "WXJLViewController.h"
 
 @interface RecordViewController ()
 <UITableViewDelegate,
@@ -110,7 +111,9 @@ UITableViewDataSource>
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
+    WXJLViewController *vc = [WXJLViewController new];
+    vc.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end

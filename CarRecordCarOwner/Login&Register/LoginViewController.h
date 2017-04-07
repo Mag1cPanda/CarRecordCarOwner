@@ -6,8 +6,8 @@
 //  Copyright © 2017年 Mag1cPanda. All rights reserved.
 //
 
-#import "BaseViewController.h"
+#import <UIKit/UIKit.h>
 
-@interface LoginViewController : BaseViewController
+@interface LoginViewController : UIViewController
 
 @end

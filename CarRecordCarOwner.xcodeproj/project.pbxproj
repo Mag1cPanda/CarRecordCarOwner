@@ -13,6 +13,47 @@
 		CC58F8761E821843002D2D30 /* RecordCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC58F8741E821843002D2D30 /* RecordCell.xib */; };
 		CC58F87A1E8220DC002D2D30 /* TotalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC58F8781E8220DC002D2D30 /* TotalCell.m */; };
 		CC58F87B1E8220DC002D2D30 /* TotalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC58F8791E8220DC002D2D30 /* TotalCell.xib */; };
+		CC5955931E95D640009B77B9 /* WXJLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5955921E95D640009B77B9 /* WXJLViewController.m */; };
+		CC5955971E95D7AF009B77B9 /* WXJLCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5955951E95D7AF009B77B9 /* WXJLCell.m */; };
+		CC59559A1E95D812009B77B9 /* WXJLCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC5955991E95D812009B77B9 /* WXJLCell.xib */; };
+		CC59559D1E95E31B009B77B9 /* WXJLDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC59559C1E95E31B009B77B9 /* WXJLDetailViewController.m */; };
+		CC5955A31E95E348009B77B9 /* ComplainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5955A21E95E348009B77B9 /* ComplainViewController.m */; };
+		CC5955A71E95E605009B77B9 /* DetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5955A51E95E605009B77B9 /* DetailCell.m */; };
+		CC5955A81E95E605009B77B9 /* DetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC5955A61E95E605009B77B9 /* DetailCell.xib */; };
+		CC5955AE1E95F9D8009B77B9 /* SRSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5955AD1E95F9D8009B77B9 /* SRSectionHeader.m */; };
+		CC5955B21E961C2E009B77B9 /* WXGSCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5955B01E961C2E009B77B9 /* WXGSCell.m */; };
+		CC5955B31E961C2E009B77B9 /* WXGSCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC5955B11E961C2E009B77B9 /* WXGSCell.xib */; };
+		CC5955B71E961C3E009B77B9 /* WXPJCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5955B51E961C3E009B77B9 /* WXPJCell.m */; };
+		CC5955B81E961C3E009B77B9 /* WXPJCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC5955B61E961C3E009B77B9 /* WXPJCell.xib */; };
+		CC5955BC1E961C4C009B77B9 /* QTFYCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5955BA1E961C4C009B77B9 /* QTFYCell.m */; };
+		CC5955BD1E961C4C009B77B9 /* QTFYCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC5955BB1E961C4C009B77B9 /* QTFYCell.xib */; };
+		CC5955C11E9621B8009B77B9 /* LastCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5955BF1E9621B8009B77B9 /* LastCell.m */; };
+		CC5955C21E9621B8009B77B9 /* LastCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC5955C01E9621B8009B77B9 /* LastCell.xib */; };
+		CC5955CF1E963BF4009B77B9 /* QRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5955C61E963BF4009B77B9 /* QRadioButton.m */; };
+		CC5955D51E963BF4009B77B9 /* SRSelectGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5955CD1E963BF4009B77B9 /* SRSelectGroup.m */; };
+		CC5955DA1E963C45009B77B9 /* EvaluateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5955D91E963C45009B77B9 /* EvaluateViewController.m */; };
+		CC5955EF1E963CA8009B77B9 /* TZAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5955DD1E963CA8009B77B9 /* TZAssetCell.m */; };
+		CC5955F01E963CA8009B77B9 /* TZAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5955DF1E963CA8009B77B9 /* TZAssetModel.m */; };
+		CC5955F11E963CA8009B77B9 /* TZImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5955E11E963CA8009B77B9 /* TZImageManager.m */; };
+		CC5955F21E963CA8009B77B9 /* TZImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CC5955E21E963CA8009B77B9 /* TZImagePickerController.bundle */; };
+		CC5955F31E963CA8009B77B9 /* TZImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5955E41E963CA8009B77B9 /* TZImagePickerController.m */; };
+		CC5955F41E963CA8009B77B9 /* TZPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5955E61E963CA8009B77B9 /* TZPhotoPickerController.m */; };
+		CC5955F51E963CA8009B77B9 /* TZPhotoPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5955E81E963CA8009B77B9 /* TZPhotoPreviewCell.m */; };
+		CC5955F61E963CA8009B77B9 /* TZPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5955EA1E963CA8009B77B9 /* TZPhotoPreviewController.m */; };
+		CC5955F71E963CA8009B77B9 /* TZVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5955EC1E963CA8009B77B9 /* TZVideoPlayerController.m */; };
+		CC5955F81E963CA8009B77B9 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5955EE1E963CA8009B77B9 /* UIView+Layout.m */; };
+		CC5955FB1E963CCD009B77B9 /* SRImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5955FA1E963CCD009B77B9 /* SRImageView.m */; };
+		CC5956021E963DD9009B77B9 /* RepairEvaCellPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5955FD1E963DD9009B77B9 /* RepairEvaCellPhoto.m */; };
+		CC5956031E963DD9009B77B9 /* RepairEvaCellPhoto.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC5955FE1E963DD9009B77B9 /* RepairEvaCellPhoto.xib */; };
+		CC5956041E963DD9009B77B9 /* RepairEvaCellStar.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5956001E963DD9009B77B9 /* RepairEvaCellStar.m */; };
+		CC5956051E963DD9009B77B9 /* RepairEvaCellStar.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC5956011E963DD9009B77B9 /* RepairEvaCellStar.xib */; };
+		CC5956081E963E15009B77B9 /* AddImgButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5956071E963E15009B77B9 /* AddImgButton.m */; };
+		CC59560B1E963F8D009B77B9 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = CC59560A1E963F8D009B77B9 /* Util.m */; };
+		CC5956121E96432F009B77B9 /* radio_checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC5956101E96432F009B77B9 /* radio_checked@2x.png */; };
+		CC5956131E96432F009B77B9 /* radio_unchecked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC5956111E96432F009B77B9 /* radio_unchecked@2x.png */; };
+		CC5956161E965014009B77B9 /* LRTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5956151E965014009B77B9 /* LRTextField.m */; };
+		CC59561A1E965628009B77B9 /* ForgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5956181E965628009B77B9 /* ForgetViewController.m */; };
+		CC59561B1E965628009B77B9 /* ForgetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC5956191E965628009B77B9 /* ForgetViewController.xib */; };
 		CC5E7A6D1E8F8681002C4DDC /* MyCarCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5E7A6B1E8F8681002C4DDC /* MyCarCollectionViewCell.m */; };
 		CC5E7A6E1E8F8681002C4DDC /* MyCarCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC5E7A6C1E8F8681002C4DDC /* MyCarCollectionViewCell.xib */; };
 		CC5E7A741E8FA523002C4DDC /* SRInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5E7A731E8FA523002C4DDC /* SRInputView.m */; };
@@ -211,6 +252,76 @@
 		CC58F8771E8220DC002D2D30 /* TotalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TotalCell.h; sourceTree = "<group>"; };
 		CC58F8781E8220DC002D2D30 /* TotalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TotalCell.m; sourceTree = "<group>"; };
 		CC58F8791E8220DC002D2D30 /* TotalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TotalCell.xib; sourceTree = "<group>"; };
+		CC5955911E95D640009B77B9 /* WXJLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXJLViewController.h; sourceTree = "<group>"; };
+		CC5955921E95D640009B77B9 /* WXJLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXJLViewController.m; sourceTree = "<group>"; };
+		CC5955941E95D7AF009B77B9 /* WXJLCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXJLCell.h; sourceTree = "<group>"; };
+		CC5955951E95D7AF009B77B9 /* WXJLCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXJLCell.m; sourceTree = "<group>"; };
+		CC5955991E95D812009B77B9 /* WXJLCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WXJLCell.xib; sourceTree = "<group>"; };
+		CC59559B1E95E31B009B77B9 /* WXJLDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXJLDetailViewController.h; sourceTree = "<group>"; };
+		CC59559C1E95E31B009B77B9 /* WXJLDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXJLDetailViewController.m; sourceTree = "<group>"; };
+		CC5955A21E95E348009B77B9 /* ComplainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComplainViewController.m; sourceTree = "<group>"; };
+		CC5955A41E95E605009B77B9 /* DetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailCell.h; sourceTree = "<group>"; };
+		CC5955A51E95E605009B77B9 /* DetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailCell.m; sourceTree = "<group>"; };
+		CC5955A61E95E605009B77B9 /* DetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailCell.xib; sourceTree = "<group>"; };
+		CC5955AC1E95F9D8009B77B9 /* SRSectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRSectionHeader.h; sourceTree = "<group>"; };
+		CC5955AD1E95F9D8009B77B9 /* SRSectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRSectionHeader.m; sourceTree = "<group>"; };
+		CC5955AF1E961C2E009B77B9 /* WXGSCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXGSCell.h; sourceTree = "<group>"; };
+		CC5955B01E961C2E009B77B9 /* WXGSCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXGSCell.m; sourceTree = "<group>"; };
+		CC5955B11E961C2E009B77B9 /* WXGSCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WXGSCell.xib; sourceTree = "<group>"; };
+		CC5955B41E961C3E009B77B9 /* WXPJCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXPJCell.h; sourceTree = "<group>"; };
+		CC5955B51E961C3E009B77B9 /* WXPJCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXPJCell.m; sourceTree = "<group>"; };
+		CC5955B61E961C3E009B77B9 /* WXPJCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WXPJCell.xib; sourceTree = "<group>"; };
+		CC5955B91E961C4C009B77B9 /* QTFYCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTFYCell.h; sourceTree = "<group>"; };
+		CC5955BA1E961C4C009B77B9 /* QTFYCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTFYCell.m; sourceTree = "<group>"; };
+		CC5955BB1E961C4C009B77B9 /* QTFYCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QTFYCell.xib; sourceTree = "<group>"; };
+		CC5955BE1E9621B8009B77B9 /* LastCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LastCell.h; sourceTree = "<group>"; };
+		CC5955BF1E9621B8009B77B9 /* LastCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LastCell.m; sourceTree = "<group>"; };
+		CC5955C01E9621B8009B77B9 /* LastCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LastCell.xib; sourceTree = "<group>"; };
+		CC5955C51E963BF4009B77B9 /* QRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRadioButton.h; sourceTree = "<group>"; };
+		CC5955C61E963BF4009B77B9 /* QRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRadioButton.m; sourceTree = "<group>"; };
+		CC5955CC1E963BF4009B77B9 /* SRSelectGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRSelectGroup.h; sourceTree = "<group>"; };
+		CC5955CD1E963BF4009B77B9 /* SRSelectGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRSelectGroup.m; sourceTree = "<group>"; };
+		CC5955D71E963C39009B77B9 /* ComplainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComplainViewController.h; sourceTree = "<group>"; };
+		CC5955D81E963C45009B77B9 /* EvaluateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvaluateViewController.h; sourceTree = "<group>"; };
+		CC5955D91E963C45009B77B9 /* EvaluateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvaluateViewController.m; sourceTree = "<group>"; };
+		CC5955DC1E963CA8009B77B9 /* TZAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZAssetCell.h; sourceTree = "<group>"; };
+		CC5955DD1E963CA8009B77B9 /* TZAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZAssetCell.m; sourceTree = "<group>"; };
+		CC5955DE1E963CA8009B77B9 /* TZAssetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZAssetModel.h; sourceTree = "<group>"; };
+		CC5955DF1E963CA8009B77B9 /* TZAssetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZAssetModel.m; sourceTree = "<group>"; };
+		CC5955E01E963CA8009B77B9 /* TZImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImageManager.h; sourceTree = "<group>"; };
+		CC5955E11E963CA8009B77B9 /* TZImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImageManager.m; sourceTree = "<group>"; };
+		CC5955E21E963CA8009B77B9 /* TZImagePickerController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TZImagePickerController.bundle; sourceTree = "<group>"; };
+		CC5955E31E963CA8009B77B9 /* TZImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImagePickerController.h; sourceTree = "<group>"; };
+		CC5955E41E963CA8009B77B9 /* TZImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImagePickerController.m; sourceTree = "<group>"; };
+		CC5955E51E963CA8009B77B9 /* TZPhotoPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPickerController.h; sourceTree = "<group>"; };
+		CC5955E61E963CA8009B77B9 /* TZPhotoPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPickerController.m; sourceTree = "<group>"; };
+		CC5955E71E963CA8009B77B9 /* TZPhotoPreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPreviewCell.h; sourceTree = "<group>"; };
+		CC5955E81E963CA8009B77B9 /* TZPhotoPreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPreviewCell.m; sourceTree = "<group>"; };
+		CC5955E91E963CA8009B77B9 /* TZPhotoPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPreviewController.h; sourceTree = "<group>"; };
+		CC5955EA1E963CA8009B77B9 /* TZPhotoPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPreviewController.m; sourceTree = "<group>"; };
+		CC5955EB1E963CA8009B77B9 /* TZVideoPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZVideoPlayerController.h; sourceTree = "<group>"; };
+		CC5955EC1E963CA8009B77B9 /* TZVideoPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZVideoPlayerController.m; sourceTree = "<group>"; };
+		CC5955ED1E963CA8009B77B9 /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		CC5955EE1E963CA8009B77B9 /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		CC5955F91E963CCD009B77B9 /* SRImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRImageView.h; sourceTree = "<group>"; };
+		CC5955FA1E963CCD009B77B9 /* SRImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRImageView.m; sourceTree = "<group>"; };
+		CC5955FC1E963DD9009B77B9 /* RepairEvaCellPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepairEvaCellPhoto.h; sourceTree = "<group>"; };
+		CC5955FD1E963DD9009B77B9 /* RepairEvaCellPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepairEvaCellPhoto.m; sourceTree = "<group>"; };
+		CC5955FE1E963DD9009B77B9 /* RepairEvaCellPhoto.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RepairEvaCellPhoto.xib; sourceTree = "<group>"; };
+		CC5955FF1E963DD9009B77B9 /* RepairEvaCellStar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepairEvaCellStar.h; sourceTree = "<group>"; };
+		CC5956001E963DD9009B77B9 /* RepairEvaCellStar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepairEvaCellStar.m; sourceTree = "<group>"; };
+		CC5956011E963DD9009B77B9 /* RepairEvaCellStar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RepairEvaCellStar.xib; sourceTree = "<group>"; };
+		CC5956061E963E15009B77B9 /* AddImgButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddImgButton.h; sourceTree = "<group>"; };
+		CC5956071E963E15009B77B9 /* AddImgButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddImgButton.m; sourceTree = "<group>"; };
+		CC5956091E963F8D009B77B9 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		CC59560A1E963F8D009B77B9 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		CC5956101E96432F009B77B9 /* radio_checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio_checked@2x.png"; sourceTree = "<group>"; };
+		CC5956111E96432F009B77B9 /* radio_unchecked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio_unchecked@2x.png"; sourceTree = "<group>"; };
+		CC5956141E965014009B77B9 /* LRTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRTextField.h; sourceTree = "<group>"; };
+		CC5956151E965014009B77B9 /* LRTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRTextField.m; sourceTree = "<group>"; };
+		CC5956171E965628009B77B9 /* ForgetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetViewController.h; sourceTree = "<group>"; };
+		CC5956181E965628009B77B9 /* ForgetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetViewController.m; sourceTree = "<group>"; };
+		CC5956191E965628009B77B9 /* ForgetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForgetViewController.xib; sourceTree = "<group>"; };
 		CC5E7A6A1E8F8681002C4DDC /* MyCarCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCarCollectionViewCell.h; sourceTree = "<group>"; };
 		CC5E7A6B1E8F8681002C4DDC /* MyCarCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCarCollectionViewCell.m; sourceTree = "<group>"; };
 		CC5E7A6C1E8F8681002C4DDC /* MyCarCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCarCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -579,6 +690,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC5955C31E963BF4009B77B9 /* SRSelectGroup */ = {
+			isa = PBXGroup;
+			children = (
+				CC5955C41E963BF4009B77B9 /* QRadioButton */,
+				CC5955CC1E963BF4009B77B9 /* SRSelectGroup.h */,
+				CC5955CD1E963BF4009B77B9 /* SRSelectGroup.m */,
+			);
+			path = SRSelectGroup;
+			sourceTree = "<group>";
+		};
+		CC5955C41E963BF4009B77B9 /* QRadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				CC5956101E96432F009B77B9 /* radio_checked@2x.png */,
+				CC5956111E96432F009B77B9 /* radio_unchecked@2x.png */,
+				CC5955C51E963BF4009B77B9 /* QRadioButton.h */,
+				CC5955C61E963BF4009B77B9 /* QRadioButton.m */,
+			);
+			path = QRadioButton;
+			sourceTree = "<group>";
+		};
+		CC5955DB1E963CA8009B77B9 /* TZImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				CC5955DC1E963CA8009B77B9 /* TZAssetCell.h */,
+				CC5955DD1E963CA8009B77B9 /* TZAssetCell.m */,
+				CC5955DE1E963CA8009B77B9 /* TZAssetModel.h */,
+				CC5955DF1E963CA8009B77B9 /* TZAssetModel.m */,
+				CC5955E01E963CA8009B77B9 /* TZImageManager.h */,
+				CC5955E11E963CA8009B77B9 /* TZImageManager.m */,
+				CC5955E21E963CA8009B77B9 /* TZImagePickerController.bundle */,
+				CC5955E31E963CA8009B77B9 /* TZImagePickerController.h */,
+				CC5955E41E963CA8009B77B9 /* TZImagePickerController.m */,
+				CC5955E51E963CA8009B77B9 /* TZPhotoPickerController.h */,
+				CC5955E61E963CA8009B77B9 /* TZPhotoPickerController.m */,
+				CC5955E71E963CA8009B77B9 /* TZPhotoPreviewCell.h */,
+				CC5955E81E963CA8009B77B9 /* TZPhotoPreviewCell.m */,
+				CC5955E91E963CA8009B77B9 /* TZPhotoPreviewController.h */,
+				CC5955EA1E963CA8009B77B9 /* TZPhotoPreviewController.m */,
+				CC5955EB1E963CA8009B77B9 /* TZVideoPlayerController.h */,
+				CC5955EC1E963CA8009B77B9 /* TZVideoPlayerController.m */,
+				CC5955ED1E963CA8009B77B9 /* UIView+Layout.h */,
+				CC5955EE1E963CA8009B77B9 /* UIView+Layout.m */,
+			);
+			path = TZImagePickerController;
+			sourceTree = "<group>";
+		};
 		CC7E7A8E1E77CDA300680912 = {
 			isa = PBXGroup;
 			children = (
@@ -656,6 +814,14 @@
 				CC7E7C001E794A6500680912 /* View */,
 				CC7E7BCC1E77E1FC00680912 /* RecordViewController.h */,
 				CC7E7BCD1E77E1FC00680912 /* RecordViewController.m */,
+				CC5955911E95D640009B77B9 /* WXJLViewController.h */,
+				CC5955921E95D640009B77B9 /* WXJLViewController.m */,
+				CC59559B1E95E31B009B77B9 /* WXJLDetailViewController.h */,
+				CC59559C1E95E31B009B77B9 /* WXJLDetailViewController.m */,
+				CC5955D81E963C45009B77B9 /* EvaluateViewController.h */,
+				CC5955D91E963C45009B77B9 /* EvaluateViewController.m */,
+				CC5955D71E963C39009B77B9 /* ComplainViewController.h */,
+				CC5955A21E95E348009B77B9 /* ComplainViewController.m */,
 				CC8695FC1E7D322600CFA3EE /* CarManageViewController.h */,
 				CC8695FD1E7D322600CFA3EE /* CarManageViewController.m */,
 				CC8696091E7D33BB00CFA3EE /* AddCarViewController.h */,
@@ -719,6 +885,7 @@
 				CCCB808E1E7A230300D628E8 /* star_yellow@2x.png */,
 				CCCB808A1E7A22D700D628E8 /* CWStarRateView.h */,
 				CCCB808B1E7A22D700D628E8 /* CWStarRateView.m */,
+				CC5955DB1E963CA8009B77B9 /* TZImagePickerController */,
 				CCEC0FA01E94EE5800FC5BA3 /* PNChart */,
 				CC9509381E8A3CC700B087BB /* HYBUnicodeReadable */,
 				CC86961B1E7F724200CFA3EE /* JSDropDownMenu */,
@@ -737,6 +904,8 @@
 		CC7E7AB61E77D1DF00680912 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				CC5956091E963F8D009B77B9 /* Util.h */,
+				CC59560A1E963F8D009B77B9 /* Util.m */,
 				CC7E7ABE1E77D2E400680912 /* Globle.h */,
 				CC7E7ABF1E77D2E400680912 /* Globle.m */,
 				CC7E7BB01E77D70C00680912 /* DESCript.h */,
@@ -774,6 +943,11 @@
 		CC7E7AB81E77D1FA00680912 /* Login&Register */ = {
 			isa = PBXGroup;
 			children = (
+				CC5956141E965014009B77B9 /* LRTextField.h */,
+				CC5956151E965014009B77B9 /* LRTextField.m */,
+				CC5956171E965628009B77B9 /* ForgetViewController.h */,
+				CC5956181E965628009B77B9 /* ForgetViewController.m */,
+				CC5956191E965628009B77B9 /* ForgetViewController.xib */,
 				CC7E7BD81E77E65400680912 /* RegisterViewController.h */,
 				CC7E7BD91E77E65400680912 /* RegisterViewController.m */,
 				CC7E7BDA1E77E65400680912 /* RegisterViewController.xib */,
@@ -1077,6 +1251,37 @@
 		CC7E7C001E794A6500680912 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CC5955C31E963BF4009B77B9 /* SRSelectGroup */,
+				CC5955941E95D7AF009B77B9 /* WXJLCell.h */,
+				CC5955951E95D7AF009B77B9 /* WXJLCell.m */,
+				CC5955991E95D812009B77B9 /* WXJLCell.xib */,
+				CC5955A41E95E605009B77B9 /* DetailCell.h */,
+				CC5955A51E95E605009B77B9 /* DetailCell.m */,
+				CC5955A61E95E605009B77B9 /* DetailCell.xib */,
+				CC5955AF1E961C2E009B77B9 /* WXGSCell.h */,
+				CC5955B01E961C2E009B77B9 /* WXGSCell.m */,
+				CC5955B11E961C2E009B77B9 /* WXGSCell.xib */,
+				CC5955B41E961C3E009B77B9 /* WXPJCell.h */,
+				CC5955B51E961C3E009B77B9 /* WXPJCell.m */,
+				CC5955B61E961C3E009B77B9 /* WXPJCell.xib */,
+				CC5955B91E961C4C009B77B9 /* QTFYCell.h */,
+				CC5955BA1E961C4C009B77B9 /* QTFYCell.m */,
+				CC5955BB1E961C4C009B77B9 /* QTFYCell.xib */,
+				CC5955BE1E9621B8009B77B9 /* LastCell.h */,
+				CC5955BF1E9621B8009B77B9 /* LastCell.m */,
+				CC5955C01E9621B8009B77B9 /* LastCell.xib */,
+				CC5955AC1E95F9D8009B77B9 /* SRSectionHeader.h */,
+				CC5955AD1E95F9D8009B77B9 /* SRSectionHeader.m */,
+				CC5955F91E963CCD009B77B9 /* SRImageView.h */,
+				CC5955FA1E963CCD009B77B9 /* SRImageView.m */,
+				CC5955FC1E963DD9009B77B9 /* RepairEvaCellPhoto.h */,
+				CC5955FD1E963DD9009B77B9 /* RepairEvaCellPhoto.m */,
+				CC5955FE1E963DD9009B77B9 /* RepairEvaCellPhoto.xib */,
+				CC5955FF1E963DD9009B77B9 /* RepairEvaCellStar.h */,
+				CC5956001E963DD9009B77B9 /* RepairEvaCellStar.m */,
+				CC5956011E963DD9009B77B9 /* RepairEvaCellStar.xib */,
+				CC5956061E963E15009B77B9 /* AddImgButton.h */,
+				CC5956071E963E15009B77B9 /* AddImgButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1321,29 +1526,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC7E7BF41E7938F800680912 /* slide_img.png in Resources */,
+				CC5955B81E961C3E009B77B9 /* WXPJCell.xib in Resources */,
 				CC58F8711E82169F002D2D30 /* VerifyViewController.xib in Resources */,
+				CC5956051E963DD9009B77B9 /* RepairEvaCellStar.xib in Resources */,
 				CCCB809D1E7A92AD00D628E8 /* QYDSectionOneCell.xib in Resources */,
 				CC5E7A6E1E8F8681002C4DDC /* MyCarCollectionViewCell.xib in Resources */,
+				CC59561B1E965628009B77B9 /* ForgetViewController.xib in Resources */,
 				CC86964E1E7FB63600CFA3EE /* MineCell.xib in Resources */,
 				CC7E7BF61E7938F800680912 /* slide_navon.png in Resources */,
 				CCCB81151E7BEE7500D628E8 /* HomeSectionOne.xib in Resources */,
+				CC5955F21E963CA8009B77B9 /* TZImagePickerController.bundle in Resources */,
 				CCCB811F1E7BEEA700D628E8 /* HomeSectionTwo.xib in Resources */,
 				CC95092C1E8A34E300B087BB /* SettingViewController.xib in Resources */,
 				CC7E7BF51E7938F800680912 /* slide_nav.png in Resources */,
 				CCCB80ED1E7B7EC400D628E8 /* MJRefresh.bundle in Resources */,
 				CC7E7BE11E77E68300680912 /* LoginViewController.xib in Resources */,
+				CC5956131E96432F009B77B9 /* radio_unchecked@2x.png in Resources */,
 				CC8696121E7D33BB00CFA3EE /* CameraAddViewController.xib in Resources */,
 				CC7E7AAA1E77CDA300680912 /* LaunchScreen.storyboard in Resources */,
+				CC5955C21E9621B8009B77B9 /* LastCell.xib in Resources */,
 				CCCB808F1E7A230300D628E8 /* star_gray@2x.png in Resources */,
 				CCEC0F6C1E94DDD600FC5BA3 /* ChartCell.xib in Resources */,
 				CCCB80901E7A230300D628E8 /* star_yellow@2x.png in Resources */,
 				CC7E7AA71E77CDA300680912 /* Assets.xcassets in Resources */,
+				CC59559A1E95D812009B77B9 /* WXJLCell.xib in Resources */,
 				CC7E7BDC1E77E65400680912 /* RegisterViewController.xib in Resources */,
 				CCCB80A21E7A92D600D628E8 /* QYDSectionZeroCell.xib in Resources */,
+				CC5956121E96432F009B77B9 /* radio_checked@2x.png in Resources */,
 				CCCB810A1E7BD7D900D628E8 /* justCityList.plist in Resources */,
 				CC7E7B0F1E77D33800680912 /* IQKeyboardManager.bundle in Resources */,
+				CC5955A81E95E605009B77B9 /* DetailCell.xib in Resources */,
+				CC5955BD1E961C4C009B77B9 /* QTFYCell.xib in Resources */,
 				CC8696561E7FC5B100CFA3EE /* AccountInfoCell.xib in Resources */,
 				CCCB80921E7A23AE00D628E8 /* QYDetailHeader.xib in Resources */,
+				CC5956031E963DD9009B77B9 /* RepairEvaCellPhoto.xib in Resources */,
 				CC58F87B1E8220DC002D2D30 /* TotalCell.xib in Resources */,
 				CC7E7B2B1E77D34000680912 /* Info.plist in Resources */,
 				CCEC0F3F1E9497BD00FC5BA3 /* BaseInputCell.xib in Resources */,
@@ -1354,6 +1570,7 @@
 				CC7E7AA51E77CDA300680912 /* Main.storyboard in Resources */,
 				CC86961F1E7F724200CFA3EE /* ico_make.png in Resources */,
 				CC58F8761E821843002D2D30 /* RecordCell.xib in Resources */,
+				CC5955B31E961C2E009B77B9 /* WXGSCell.xib in Resources */,
 				CCCB81091E7BD7D900D628E8 /* CityData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1374,16 +1591,20 @@
 				CCCB80EB1E7B7EC400D628E8 /* MJRefreshNormalHeader.m in Sources */,
 				CCCB81141E7BEE7500D628E8 /* HomeSectionOne.m in Sources */,
 				CC9509321E8A37AD00B087BB /* AddWXJLViewController.m in Sources */,
+				CC5955C11E9621B8009B77B9 /* LastCell.m in Sources */,
 				CC7E7B081E77D33800680912 /* IQKeyboardReturnKeyHandler.m in Sources */,
 				CCEC0FC61E94EE5800FC5BA3 /* PNBarChart.m in Sources */,
 				CC7E7BC21E77DC8B00680912 /* LRTabBarController.m in Sources */,
 				CC7E7B0A1E77D33800680912 /* IQBarButtonItem.m in Sources */,
 				CC7E7BBF1E77D7F400680912 /* UserDefaultsUtil.m in Sources */,
+				CC5955FB1E963CCD009B77B9 /* SRImageView.m in Sources */,
 				CCCB80EA1E7B7EC400D628E8 /* MJRefreshGifHeader.m in Sources */,
 				CC7E7BDB1E77E65400680912 /* RegisterViewController.m in Sources */,
 				CC7E7BAC1E77D35A00680912 /* UIImageView+HighlightedWebCache.m in Sources */,
+				CC5956021E963DD9009B77B9 /* RepairEvaCellPhoto.m in Sources */,
 				CC7E7BF81E7938F800680912 /* TAAnimatedDotView.m in Sources */,
 				CC7E7B021E77D33800680912 /* IQUIScrollView+Additions.m in Sources */,
+				CC5955F81E963CA8009B77B9 /* UIView+Layout.m in Sources */,
 				CCCB808C1E7A22D700D628E8 /* CWStarRateView.m in Sources */,
 				CC5E7A741E8FA523002C4DDC /* SRInputView.m in Sources */,
 				CC7E7B061E77D33800680912 /* IQUIWindow+Hierarchy.m in Sources */,
@@ -1400,34 +1621,46 @@
 				CC7E7BBC1E77D7DE00680912 /* UIView+Frame.m in Sources */,
 				CCEC0FD41E94EE5800FC5BA3 /* PNScatterChartDataItem.m in Sources */,
 				CCCB80EC1E7B7EC400D628E8 /* MJRefreshStateHeader.m in Sources */,
+				CC5955F71E963CA8009B77B9 /* TZVideoPlayerController.m in Sources */,
 				CC7E7BC81E77DD5D00680912 /* UIColor+Hex.m in Sources */,
+				CC5955F61E963CA8009B77B9 /* TZPhotoPreviewController.m in Sources */,
 				CC8287EC1E8DED650019BEC3 /* LRNavButton.m in Sources */,
 				CCEC0FC71E94EE5800FC5BA3 /* PNChartLabel.m in Sources */,
 				CCCB80F11E7B7EC400D628E8 /* UIScrollView+MJRefresh.m in Sources */,
+				CC5955A31E95E348009B77B9 /* ComplainViewController.m in Sources */,
 				CC5E7A771E8FA534002C4DDC /* ZJInputView.m in Sources */,
 				CC7E7BA21E77D35A00680912 /* SDWebImageCompat.m in Sources */,
 				CCCB80E41E7B7EC400D628E8 /* MJRefreshAutoGifFooter.m in Sources */,
+				CC5955AE1E95F9D8009B77B9 /* SRSectionHeader.m in Sources */,
 				CC7E7BA31E77D35A00680912 /* SDWebImageDecoder.m in Sources */,
 				CCCB810D1E7BE82F00D628E8 /* SRIndexView.m in Sources */,
 				CC7E7BAA1E77D35A00680912 /* UIImage+MultiFormat.m in Sources */,
 				CC7E7BE01E77E68300680912 /* LoginViewController.m in Sources */,
 				CC8696511E7FC4BD00CFA3EE /* AccountInfoViewController.m in Sources */,
 				CC9509361E8A37C900B087BB /* AddJYJLViewController.m in Sources */,
+				CC5955BC1E961C4C009B77B9 /* QTFYCell.m in Sources */,
+				CC5955F01E963CA8009B77B9 /* TZAssetModel.m in Sources */,
 				CC7E7B0E1E77D33800680912 /* IQUIView+IQKeyboardToolbar.m in Sources */,
 				CC7E7BCE1E77E1FC00680912 /* RecordViewController.m in Sources */,
 				CC58F8701E82169F002D2D30 /* VerifyViewController.m in Sources */,
 				CC8287EF1E8E068C0019BEC3 /* HomeNavBtn.m in Sources */,
+				CC5955F51E963CA8009B77B9 /* TZPhotoPreviewCell.m in Sources */,
 				CCCB80E21E7B7EC400D628E8 /* MJRefreshFooter.m in Sources */,
 				CC7E7B341E77D34000680912 /* View+MASAdditions.m in Sources */,
+				CC5956041E963DD9009B77B9 /* RepairEvaCellStar.m in Sources */,
+				CC5955B21E961C2E009B77B9 /* WXGSCell.m in Sources */,
+				CC5955F41E963CA8009B77B9 /* TZPhotoPickerController.m in Sources */,
 				CC7E7BA01E77D35A00680912 /* NSData+ImageContentType.m in Sources */,
 				CC7E7ABD1E77D23C00680912 /* BaseViewController.m in Sources */,
 				CC8696551E7FC5B100CFA3EE /* AccountInfoCell.m in Sources */,
 				CC7E7BAE1E77D35A00680912 /* UIView+WebCacheOperation.m in Sources */,
 				CC7E7BA51E77D35A00680912 /* SDWebImageDownloaderOperation.m in Sources */,
+				CC59561A1E965628009B77B9 /* ForgetViewController.m in Sources */,
 				CC7E7B0B1E77D33800680912 /* IQPreviousNextView.m in Sources */,
 				CC86960F1E7D33BB00CFA3EE /* AddCarViewController.m in Sources */,
 				CC7E7BCB1E77E1ED00680912 /* HomeViewController.m in Sources */,
 				CC7E7BA41E77D35A00680912 /* SDWebImageDownloader.m in Sources */,
+				CC5955CF1E963BF4009B77B9 /* QRadioButton.m in Sources */,
 				CCCB80E11E7B7EC400D628E8 /* MJRefreshComponent.m in Sources */,
 				CCEC0F6B1E94DDD600FC5BA3 /* ChartCell.m in Sources */,
 				CC7E7B0D1E77D33800680912 /* IQToolbar.m in Sources */,
@@ -1445,6 +1678,7 @@
 				CCEC0FCA1E94EE5800FC5BA3 /* PNGenericChart.m in Sources */,
 				CC7E7B9F1E77D35A00680912 /* MKAnnotationView+WebCache.m in Sources */,
 				CC7E7B321E77D34000680912 /* NSArray+MASAdditions.m in Sources */,
+				CC5955EF1E963CA8009B77B9 /* TZAssetCell.m in Sources */,
 				CC7E7BA81E77D35A00680912 /* UIButton+WebCache.m in Sources */,
 				CC58F8751E821843002D2D30 /* RecordCell.m in Sources */,
 				CC7E7B311E77D34000680912 /* MASViewConstraint.m in Sources */,
@@ -1462,10 +1696,13 @@
 				CC95092F1E8A35D200B087BB /* MyCarViewController.m in Sources */,
 				CCEC0F3E1E9497BD00FC5BA3 /* BaseInputCell.m in Sources */,
 				CCCB80A11E7A92D600D628E8 /* QYDSectionZeroCell.m in Sources */,
+				CC5955B71E961C3E009B77B9 /* WXPJCell.m in Sources */,
 				CCCB80E81E7B7EC400D628E8 /* MJRefreshBackNormalFooter.m in Sources */,
 				CC82881E1E8E46050019BEC3 /* DXPopover.m in Sources */,
 				CC7E7AC01E77D2E400680912 /* Globle.m in Sources */,
+				CC5955F31E963CA8009B77B9 /* TZImagePickerController.m in Sources */,
 				CCCB80EE1E7B7EC400D628E8 /* MJRefreshConst.m in Sources */,
+				CC59560B1E963F8D009B77B9 /* Util.m in Sources */,
 				CC86964D1E7FB63600CFA3EE /* MineCell.m in Sources */,
 				CCEC0FD21E94EE5800FC5BA3 /* PNScatterChart.m in Sources */,
 				CC7E7AD61E77D32B00680912 /* AFURLResponseSerialization.m in Sources */,
@@ -1473,22 +1710,27 @@
 				CC9509261E8A34C700B087BB /* ChartViewController.m in Sources */,
 				CCCB80A61E7A92ED00D628E8 /* QYDSectionTwoCell.m in Sources */,
 				CC7E7BB81E77D70C00680912 /* GTMBase64.m in Sources */,
+				CC59559D1E95E31B009B77B9 /* WXJLDetailViewController.m in Sources */,
 				CC8696191E7F698F00CFA3EE /* EnterpriseCell.m in Sources */,
 				CC7E7A9F1E77CDA300680912 /* AppDelegate.m in Sources */,
 				CC7E7A9C1E77CDA300680912 /* main.m in Sources */,
 				CCEC0F431E9498DC00FC5BA3 /* WXJLPJCell.m in Sources */,
 				CC7E7B351E77D34000680912 /* ViewController+MASAdditions.m in Sources */,
 				CC7E7BB71E77D70C00680912 /* DESCript.m in Sources */,
+				CC5956161E965014009B77B9 /* LRTextField.m in Sources */,
 				CCEC0FCE1E94EE5800FC5BA3 /* PNPieChart.m in Sources */,
 				CC8696151E7D356500CFA3EE /* CarDetailViewController.m in Sources */,
 				CCCB80E61E7B7EC400D628E8 /* MJRefreshAutoStateFooter.m in Sources */,
 				CC7E7BFA1E7938F800680912 /* TAPageControl.m in Sources */,
 				CC7E7AD21E77D32B00680912 /* AFHTTPSessionManager.m in Sources */,
+				CC5955F11E963CA8009B77B9 /* TZImageManager.m in Sources */,
 				CC7E7BFD1E7948BC00680912 /* QYDetailViewController.m in Sources */,
 				CC7E7B0C1E77D33800680912 /* IQTitleBarButtonItem.m in Sources */,
+				CC5955931E95D640009B77B9 /* WXJLViewController.m in Sources */,
 				CC7E7AD51E77D32B00680912 /* AFURLRequestSerialization.m in Sources */,
 				CC58F87A1E8220DC002D2D30 /* TotalCell.m in Sources */,
 				CCCB80F01E7B7EC400D628E8 /* UIScrollView+MJExtension.m in Sources */,
+				CC5955971E95D7AF009B77B9 /* WXJLCell.m in Sources */,
 				CC7E7AD71E77D32B00680912 /* AFURLSessionManager.m in Sources */,
 				CC7E7B331E77D34000680912 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				CCEC0FCD1E94EE5800FC5BA3 /* PNLineChartDataItem.m in Sources */,
@@ -1497,18 +1739,22 @@
 				CC7E7BAD1E77D35A00680912 /* UIImageView+WebCache.m in Sources */,
 				CC7E7B2F1E77D34000680912 /* MASLayoutConstraint.m in Sources */,
 				CC7E7BA91E77D35A00680912 /* UIImage+GIF.m in Sources */,
+				CC5955A71E95E605009B77B9 /* DetailCell.m in Sources */,
 				CC7E7BD11E77E20900680912 /* EnterpriseViewController.m in Sources */,
 				CC7E7B011E77D33800680912 /* IQNSArray+Sort.m in Sources */,
 				CC9509401E8A3CC700B087BB /* NSDictionary+HYBUnicodeReadable.m in Sources */,
 				CC8696201E7F724200CFA3EE /* JSDropDownMenu.m in Sources */,
 				CC8696591E7FC7C200CFA3EE /* MyComplaintViewController.m in Sources */,
 				CC7E7B041E77D33800680912 /* IQUIView+Hierarchy.m in Sources */,
+				CC5956081E963E15009B77B9 /* AddImgButton.m in Sources */,
 				CC7E7B2D1E77D34000680912 /* MASConstraint.m in Sources */,
 				CC7E7AD31E77D32B00680912 /* AFNetworkReachabilityManager.m in Sources */,
+				CC5955DA1E963C45009B77B9 /* EvaluateViewController.m in Sources */,
 				CC95092B1E8A34E300B087BB /* SettingViewController.m in Sources */,
 				CCCB80F81E7B9D6B00D628E8 /* UIImage+Extension.m in Sources */,
 				CC7E7AC31E77D2FD00680912 /* LRNetworkingManager.m in Sources */,
 				CC7E7B2C1E77D34000680912 /* MASCompositeConstraint.m in Sources */,
+				CC5955D51E963BF4009B77B9 /* SRSelectGroup.m in Sources */,
 				CCCB80E51E7B7EC400D628E8 /* MJRefreshAutoNormalFooter.m in Sources */,
 				CC7E7B031E77D33800680912 /* IQUITextFieldView+Additions.m in Sources */,
 				CCCB81061E7BD42100D628E8 /* LRCitySelectController.m in Sources */,
