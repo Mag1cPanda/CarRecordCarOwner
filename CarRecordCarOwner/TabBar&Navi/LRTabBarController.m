@@ -30,8 +30,6 @@
     NSArray *imgAry = @[@"home", @"record", @"enterprise", @"mine"];
     NSArray *selectedImgAry = @[@"homeon", @"recordon", @"enterpriseon", @"mineon"];
     
-    NSLog(@"%zi",self.viewControllers.count);
-    
     for (int i=0; i<4; i++) {
         LRNavigationController *nav = self.viewControllers[i];
         UIViewController *vc = nav.viewControllers[0];
@@ -42,6 +40,5 @@
     
 }
 
-#pragma mark - Lazy
 
 @end

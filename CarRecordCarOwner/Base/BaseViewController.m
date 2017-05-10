@@ -8,7 +8,7 @@
 
 #import "BaseViewController.h"
 //#import "UINavigationController+FDFullscreenPopGesture.h"
-#import "UIImage+Extension.h"
+//#import "UIImage+Extension.h"
 
 @interface BaseViewController ()
 
@@ -36,8 +36,6 @@
     
     //用.方法调用一遍，确保每个控制器都有NavBar
     self.navBarView.hidden = NO;
-    
-//    [self.navigationController.navigationBar setBackgroundImage:[UIImage createImageWithColor:[UIColor clearColor]] forBarMetrics:UIBarMetricsDefault];
     
     self.automaticallyAdjustsScrollViewInsets = NO;
     

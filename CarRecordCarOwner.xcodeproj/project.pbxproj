@@ -240,6 +240,7 @@
 		CCEC0FD41E94EE5800FC5BA3 /* PNScatterChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEC0FC21E94EE5800FC5BA3 /* PNScatterChartDataItem.m */; };
 		CCEC0FD51E94EE5800FC5BA3 /* UICountingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEC0FC41E94EE5800FC5BA3 /* UICountingLabel.m */; };
 		CCEC0FDC1E94FF6300FC5BA3 /* SRSelectListView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEC0FDB1E94FF6300FC5BA3 /* SRSelectListView.m */; };
+		CCFA4FDB1E9E2504001AB89D /* GYChangeTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFA4FDA1E9E2504001AB89D /* GYChangeTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -677,6 +678,8 @@
 		CCEC0FC41E94EE5800FC5BA3 /* UICountingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICountingLabel.m; sourceTree = "<group>"; };
 		CCEC0FDA1E94FF6300FC5BA3 /* SRSelectListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRSelectListView.h; sourceTree = "<group>"; };
 		CCEC0FDB1E94FF6300FC5BA3 /* SRSelectListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRSelectListView.m; sourceTree = "<group>"; };
+		CCFA4FD91E9E2504001AB89D /* GYChangeTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYChangeTextView.h; sourceTree = "<group>"; };
+		CCFA4FDA1E9E2504001AB89D /* GYChangeTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYChangeTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -869,6 +872,8 @@
 		CC7E7AB51E77D1C500680912 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				CCFA4FD91E9E2504001AB89D /* GYChangeTextView.h */,
+				CCFA4FDA1E9E2504001AB89D /* GYChangeTextView.m */,
 				CC82881C1E8E46050019BEC3 /* DXPopover.h */,
 				CC82881D1E8E46050019BEC3 /* DXPopover.m */,
 				CC8695F91E7D2E4F00CFA3EE /* SRPopMenu.h */,
@@ -1602,6 +1607,7 @@
 				CC7E7BDB1E77E65400680912 /* RegisterViewController.m in Sources */,
 				CC7E7BAC1E77D35A00680912 /* UIImageView+HighlightedWebCache.m in Sources */,
 				CC5956021E963DD9009B77B9 /* RepairEvaCellPhoto.m in Sources */,
+				CCFA4FDB1E9E2504001AB89D /* GYChangeTextView.m in Sources */,
 				CC7E7BF81E7938F800680912 /* TAAnimatedDotView.m in Sources */,
 				CC7E7B021E77D33800680912 /* IQUIScrollView+Additions.m in Sources */,
 				CC5955F81E963CA8009B77B9 /* UIView+Layout.m in Sources */,

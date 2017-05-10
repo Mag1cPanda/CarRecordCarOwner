@@ -7,6 +7,8 @@
 //
 
 #import "SettingViewController.h"
+#import "LRNavigationController.h"
+#import "LoginViewController.h"
 
 @interface SettingViewController ()
 
@@ -35,6 +37,10 @@
 }
 
 - (IBAction)safeLogout:(id)sender {
+    LoginViewController *vcLogin = [LoginViewController new];
+    vcLogin.isLogout = YES;
+    LRNavigationController *nav = [[LRNavigationController alloc] initWithRootViewController:vcLogin];
+    [self presentViewController:nav animated:YES completion:nil];
     
 }
 

@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GYChangeTextView.h"
 
 @interface HomeSectionOne : UITableViewCell
+
+@property (weak, nonatomic) IBOutlet GYChangeTextView *newsView;
+
 
 @end

@@ -35,7 +35,7 @@ UITableViewDataSource>
     
     UIBarButtonItem *rightItem = [[UIBarButtonItem alloc] initWithCustomView:moreBtn];
     self.navigationItem.rightBarButtonItem = rightItem;
-
+ 
     [self initTable];
 }
 
