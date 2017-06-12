@@ -14,4 +14,5 @@
 
 /** 导航条View */
 @property (nonatomic, strong) UIImageView *navBarView;
+
 @end
